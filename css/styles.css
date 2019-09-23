@@ -32,7 +32,7 @@ body {
 
 @media screen and (max-width: 991px) {
   .navbar-fixed-top {
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
   }
 
@@ -95,16 +95,71 @@ body {
 
 @media (min-width: 992px) {
   .nav-1 {
-    background-color: aliceblue;
+    background-color: #f72210;
   }
 
-  .sticky {
-    width: 100%;
+  .nav-2 {
+    top: 95px;
+  }
+
+  .navbar-fixed-top {
     position: fixed;
-    top: 0;
+    width: 100%;
   }
 
-  .user-nav-1 {
+  .box-nav-1 {
     height: 95px;
+  }
+
+  .bx-1b > a > img {
+    top: 20px;
+    width: 414px;
+    height: 63px;
+  }
+
+  .bx-1a > p {
+    font: 500 14px/14px "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+    color: #fff;
+  }
+
+  .bx-1c > * {
+    margin-top: 35px;
+  }
+
+  .signA {
+    font: bold 14px/14px "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding-right: 5px;
+  }
+
+  .signA:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .subsA {
+    background-color: #fff;
+    min-height: 25px;
+  }
+
+  .subsA > a {
+    font: bold 14px/14px "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .subsA > i {
+    padding-right: 5px;
+  }
+
+  .subsA > a,
+  .subsA > i {
+    text-decoration: none;
+    color: #f72210;
   }
 }
