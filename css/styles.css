@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+
 /*  CSS
- Variables
  csslint ignore:start */
 *,
 *::after,
@@ -17,8 +19,82 @@ html {
 }
 
 body {
-  line-height: 1.4;
+  background-color: rgb(75, 136, 102);
+  line-height: 1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0 auto;
-  overflow: hidden;
-  background-color: aqua;
+  height: 1500px;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-fixed-top {
+    position: fixed;
+    width: 100%;
+  }
+
+  .navbar {
+    background-color: #f72210;
+    min-height: 50px;
+  }
+
+  nav > a > img {
+    height: 20px;
+    width: 131px;
+    margin-bottom: 5px;
+  }
+
+  .navbar-toggler {
+    border: 0;
+  }
+
+  .fa-bars {
+    color: rgb(253, 251, 251);
+    opacity: 0.5;
+  }
+
+  .subsA {
+    background-color: #fff;
+    min-height: 25px;
+    margin-bottom: 5px;
+  }
+
+  .subsA > a {
+    font: bold 14px/14px "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .subsA > i {
+    padding-right: 5px;
+  }
+
+  .subsA > a,
+  .subsA > i {
+    text-decoration: none;
+    padding-top: 5px;
+    color: #f72210;
+  }
+
+  .signA {
+    font: bold 14px/14px "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .signA:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+@media (min-width: 992px) {
+  .user-nav-1 {
+    height: 95px;
+  }
 }

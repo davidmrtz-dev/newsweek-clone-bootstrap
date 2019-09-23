@@ -12,30 +12,51 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
     <!-- <link rel="shortcut icon" href="https://static01.nyt.com/favicon.ico" /> -->
-    <title>Hello, world!</title>
+    <title>Newsweek</title>
   </head>
   <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a class="navbar-brand" href="#">Company Name</a>
-        </nav>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-            </ul>
+    
+    <!-- #region nav_1-->
+    <div class="visible-sm container-fluid d-none d-lg-block bg-primary">
+      <div class="row">
+        <div class="col-sm bg">
         </div>
+        <div class="col-sm">
+        </div>
+        <div class="col-sm user-nav-1">
+        </div>
+      </div>
     </div>
+    <!-- #endregion -->
+
+    <!-- #region nav_2-->
+    <nav class="navbar navbar-expand-lg navbar-light d-flex navbar-fixed-top">
+      <a class="navbar-brand" href="#"><img alt="Brand" src="assets/logo-white.svg"></a>
+      <div class="navbar-nav  mr-2 ml-auto d-inline-block">
+        <a class="signA" href="#">SIGN IN</a>
+        <div class="d-inline-block subsA">
+            <a href="#">SUBSCRIBE </a>
+            <i class="fas fa-angle-right"></i>
+        </div>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+        <span>
+          <i class="fas fa-bars fa-1x"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        <div class="navbar-nav">
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Features</a>
+          <a class="nav-item nav-link" href="#">Pricing</a>
+          <a class="nav-item nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </div>
+      </div>
+    </nav>
+    <!-- #endregion -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
