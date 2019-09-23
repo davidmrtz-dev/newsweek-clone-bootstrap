@@ -162,4 +162,22 @@ body {
     text-decoration: none;
     color: #f72210;
   }
+
+  .nav-item {
+    font: 900 14px/14px "Roboto Condensed", sans-serif;
+    color: black !important;
+    opacity: 1;
+    font-size: 20px;
+    font-weight: bold;
+    border-right: 1px solid rgb(202, 201, 201);
+    height: 25px;
+  }
+
+  .nav-item:hover {
+    color: #f72210 !important;
+  }
+
+  /* .navbar {
+    width: 70%;
+  } */
 }
