@@ -32,7 +32,7 @@ body {
 
 @media screen and (max-width: 991px) {
   .navbar-fixed-top {
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
   }
 
@@ -94,6 +94,16 @@ body {
 }
 
 @media (min-width: 992px) {
+  .nav-1 {
+    background-color: aliceblue;
+  }
+
+  .sticky {
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+
   .user-nav-1 {
     height: 95px;
   }
