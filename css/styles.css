@@ -98,13 +98,8 @@ body {
     background-color: #f72210;
   }
 
-  .nav-2 {
-    top: 95px;
-  }
-
   .navbar-fixed-top {
     position: fixed;
-    width: 100%;
   }
 
   .box-nav-1 {
@@ -173,11 +168,11 @@ body {
     height: 25px;
   }
 
+  .nav-item:last-of-type {
+    border: 0;
+  }
+
   .nav-item:hover {
     color: #f72210 !important;
   }
-
-  /* .navbar {
-    width: 70%;
-  } */
 }
