@@ -196,7 +196,7 @@ body {
   }
 
   .nav-3 > div > ul > li {
-    min-width: 8.5%;
+    min-width: 7%;
     font: 900 14px/14px "Roboto Condensed", sans-serif;
     color: black !important;
     opacity: 1;
@@ -215,15 +215,27 @@ body {
     padding-top: 5px;
   }
 
+  .nav-3 > div > ul > li:first-of-type {
+    min-width: 5%;
+  }
+
   .nav-3 > div > ul > li:nth-child(9) {
     border: 0;
   }
 
-  .nav-3 > div > ul > li:last-of-type {
+  .nav-3 > div > ul > li:nth-child(4) {
+    min-width: 145px;
+  }
+
+  .nav-3 > div > ul > li:nth-child(10) {
     min-width: 10%;
-    width: 17%;
-    max-width: 23%;
+    width: 16.5%;
     border: 0;
+    flex-grow: 1;
+  }
+
+  .nav-3 > div > ul > li:last-of-type {
+    min-width: 5.4%;
   }
 
   .head-panel::before {
@@ -237,5 +249,6 @@ body {
     top: 0;
     width: 66px;
   }
+  
 
 /* #endregion */
