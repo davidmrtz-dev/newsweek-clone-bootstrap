@@ -30,6 +30,7 @@ body {
   background-color: #fff;
 }
 
+/* #region s-m-size */
 @media screen and (max-width: 991px) {
   .navbar-fixed-top {
     position: fixed;
@@ -93,6 +94,9 @@ body {
   }
 }
 
+/* #endregion */
+
+/* #region s>m size */
 @media (min-width: 992px) {
   .nav-1 {
     background-color: #f72210;
@@ -175,4 +179,63 @@ body {
   .nav-item:hover {
     color: #f72210 !important;
   }
-}
+
+  /* navbar 3 large size
+   */
+
+  .nav-3 {
+    top: 95px;
+    height: 50px;
+    width: 100%;
+  }
+
+  .nav-3 > div > ul {
+    background-color: #fff;
+    height: 50px;
+    margin-top: auto;
+  }
+
+  .nav-3 > div > ul > li {
+    min-width: 8.5%;
+    font: 900 14px/14px "Roboto Condensed", sans-serif;
+    color: black !important;
+    opacity: 1;
+    font-size: 20px;
+    font-weight: bold;
+    border-right: 1px solid rgb(202, 201, 201);
+  }
+
+  .nav-3 > div > ul > li > a {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+    padding-top: 5px;
+  }
+
+  .nav-3 > div > ul > li:nth-child(9) {
+    border: 0;
+  }
+
+  .nav-3 > div > ul > li:last-of-type {
+    min-width: 10%;
+    width: 17%;
+    max-width: 23%;
+    border: 0;
+  }
+
+  .head-panel::before {
+    background-color: #f72210;
+    border-left: 12px solid #fff;
+    border-top: 13px solid #f72210;
+    content: "";
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 66px;
+  }
+
+/* #endregion */
