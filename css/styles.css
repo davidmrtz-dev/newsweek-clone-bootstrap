@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+
 /*  CSS
- Variables
  csslint ignore:start */
 *,
 *::after,
@@ -17,8 +19,236 @@ html {
 }
 
 body {
-  line-height: 1.4;
+  background-color: rgb(75, 136, 102);
+  line-height: 1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0 auto;
-  overflow: hidden;
-  background-color: aqua;
+  height: 1500px;
 }
+
+.navbar {
+  background-color: #fff;
+}
+
+/* #region s-m-size */
+@media screen and (max-width: 991px) {
+  .navbar-fixed-top {
+    position: fixed;
+    width: 100%;
+  }
+
+  .navbar {
+    background-color: #f72210;
+    min-height: 50px;
+  }
+
+  nav > a > img {
+    height: 20px;
+    width: 131px;
+    margin-bottom: 5px;
+  }
+
+  .navbar-toggler {
+    border: 0;
+  }
+
+  .fa-bars {
+    color: rgb(253, 251, 251);
+    opacity: 0.5;
+  }
+
+  .subsA {
+    background-color: #fff;
+    min-height: 25px;
+    margin-bottom: 5px;
+  }
+
+  .subsA > a {
+    font: bold 14px/14px "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .subsA > i {
+    padding-right: 5px;
+  }
+
+  .subsA > a,
+  .subsA > i {
+    text-decoration: none;
+    padding-top: 5px;
+    color: #f72210;
+  }
+
+  .signA {
+    font: bold 14px/14px "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .signA:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+/* #endregion */
+
+/* #region s>m size */
+@media (min-width: 992px) {
+  .nav-1 {
+    background-color: #f72210;
+  }
+
+  .navbar-fixed-top {
+    position: fixed;
+  }
+
+  .box-nav-1 {
+    height: 95px;
+  }
+
+  .bx-1b > a > img {
+    top: 20px;
+    width: 414px;
+    height: 63px;
+  }
+
+  .bx-1a > p {
+    font: 500 14px/14px "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+    color: #fff;
+  }
+
+  .bx-1c > * {
+    margin-top: 35px;
+  }
+
+  .signA {
+    font: bold 14px/14px "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding-right: 5px;
+  }
+
+  .signA:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .subsA {
+    background-color: #fff;
+    min-height: 25px;
+  }
+
+  .subsA > a {
+    font: bold 14px/14px "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .subsA > i {
+    padding-right: 5px;
+  }
+
+  .subsA > a,
+  .subsA > i {
+    text-decoration: none;
+    color: #f72210;
+  }
+
+  .nav-item {
+    font: 900 14px/14px "Roboto Condensed", sans-serif;
+    color: black !important;
+    opacity: 1;
+    font-size: 20px;
+    font-weight: bold;
+    border-right: 1px solid rgb(202, 201, 201);
+    height: 25px;
+  }
+
+  .nav-item:last-of-type {
+    border: 0;
+  }
+
+  .nav-item:hover {
+    color: #f72210 !important;
+  }
+
+  /* navbar 3 large size
+   */
+
+  .nav-3 {
+    top: 95px;
+    height: 50px;
+    width: 100%;
+  }
+
+  .nav-3 > div > ul {
+    background-color: #fff;
+    height: 50px;
+    margin-top: auto;
+  }
+
+  .nav-3 > div > ul > li {
+    min-width: 7%;
+    font: 900 14px/14px "Roboto Condensed", sans-serif;
+    color: black !important;
+    opacity: 1;
+    font-size: 20px;
+    font-weight: bold;
+    border-right: 1px solid rgb(202, 201, 201);
+  }
+
+  .nav-3 > div > ul > li > a {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+    padding-top: 5px;
+  }
+
+  .nav-3 > div > ul > li:first-of-type {
+    min-width: 5%;
+  }
+
+  .nav-3 > div > ul > li:nth-child(9) {
+    border: 0;
+  }
+
+  .nav-3 > div > ul > li:nth-child(4) {
+    min-width: 145px;
+  }
+
+  .nav-3 > div > ul > li:nth-child(10) {
+    min-width: 10%;
+    width: 16.5%;
+    border: 0;
+    flex-grow: 1;
+  }
+
+  .nav-3 > div > ul > li:last-of-type {
+    min-width: 5.4%;
+  }
+
+  .head-panel::before {
+    background-color: #f72210;
+    border-left: 12px solid #fff;
+    border-top: 13px solid #f72210;
+    content: "";
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 66px;
+  }
+}
+
+/* #endregion */
