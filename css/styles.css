@@ -383,9 +383,27 @@ body {
 /* #endregion */
 
 /* #region culture-and-travel */
-@media (max-width: 767px) and (min-width: 560px) {
+@media (max-width: 639px) and (min-width: 560px) {
   .culture-and-travel {
-    margin-top: 12.5%;
+    margin-top: 6%;
+  }
+}
+
+@media (max-width: 669px) and (min-width: 640px) {
+  .culture-and-travel {
+    margin-top: 8%;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 670px) {
+  .culture-and-travel {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .culture-and-travel {
+    margin-top: 0;
   }
 }
 
