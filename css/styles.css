@@ -96,7 +96,7 @@ body {
 /* #endregion */
 
 /* #region s>m size */
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .nav-1 {
     z-index: 1;
     background-color: #f72210;
@@ -308,7 +308,7 @@ body {
   padding-bottom: 0.3em;
 }
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .top-story {
     margin-top: 155px;
   }
@@ -386,6 +386,7 @@ body {
   color: rgba(3, 3, 3, 0.4);
   font: bold 16px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
+  padding-bottom: 0.5em;
 }
 
 .more-stories p {
@@ -405,6 +406,59 @@ body {
     width: 135px;
     height: 90px;
   }
+}
+
+@media (max-width: 767px) and (min-width: 560px) {
+  .culture-and-travel {
+    margin-top: 12.5%;
+  }
+}
+
+.culture-and-travel {
+  background-color: aliceblue;
+}
+
+.culture-and-travel div.cultr {
+  padding-bottom: 2em;
+}
+
+.culture-and-travel img {
+  width: 100%;
+}
+
+.culture-and-travel h3 {
+  color: black;
+  font: 18px "Lora", serif;
+  padding: 0.5em 1em;
+  line-height: 1.1em;
+}
+
+.culture-and-travel h2 {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding: 0.5em 0.5em;
+  line-height: 1.1em;
+}
+
+.culture-and-travel p {
+  color: rgba(39, 39, 39, 0.5);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  padding: 0.5em 1em;
+  line-height: 1.2em;
+}
+
+.culture-and-travel .btn {
+  font: 13px Arial, Helvetica, sans-serif;
+  background-color: #c2d4d7;
+  padding: 0 6px;
+  margin: 0 9px 6px 1em;
+}
+
+.culture-and-travel .btn:hover {
+  color: #c2d4d7;
+  background-color: black;
 }
 
 /* #endregion */
