@@ -328,12 +328,20 @@ body {
   padding: 0.3em 0;
 }
 
+.top-story div > a:last-of-type > h3 {
+  font-size: 20px;
+}
+
 .top-story p {
   padding: 0.3em 0;
   color: rgb(53, 52, 52);
   font-size: 13px;
   line-height: 18px;
   font-family: Arial, Helvetica, sans-serif;
+  /* clear: both; */
+  border-bottom: thin solid rgba(128, 128, 128, 0.4);
+  padding-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .top-story-img {
@@ -381,7 +389,7 @@ body {
 }
 
 .more-stories p {
-  color: rgba(39, 39, 39, 0.5);
+  color: #333;
   font: 13px Arial, Helvetica, sans-serif;
   padding: 0.5em 1em;
 }
@@ -398,6 +406,7 @@ body {
     height: 90px;
   }
 }
+
 /* #endregion */
 
 /* #region con-container-2 */
