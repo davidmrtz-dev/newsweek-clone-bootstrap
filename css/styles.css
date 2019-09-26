@@ -946,7 +946,7 @@ a {
 
 /* #region slides-shows */
 
-#slideshows h2 {
+.slideshows h2 {
   font-size: 19px;
   color: black;
   text-align: center;
@@ -955,41 +955,48 @@ a {
   padding-bottom: 5px;
   margin: 0px 15px 15px;
 }
-#slideshows h2 .logo {
+
+.slideshows h2 .logo {
   margin-bottom: -8px;
   margin-right: 8px;
 }
-#slideshows .row > div {
-  padding: 0px 15px 40px;
+
+.slideshows .row > div {
+  padding: 0 15px 40px;
 }
-#slideshows .row > div h3 {
+
+.slideshows .row > div h3 {
   font: bold 22px "Roboto Condensed", sans-serif;
   padding-top: 20px;
   margin-bottom: 10px;
 }
+
 .slideshow-image {
   position: relative;
   width: 100%;
 }
+
 .slideshow-image img {
   width: 100%;
 }
+
 .slideshow-image a.count {
   display: inline-block;
   width: 70px;
   height: 52px;
-  bottom: 0px;
-  left: 0px;
+  bottom: 0;
+  left: 0;
   color: #f72210;
   font: bold 17px "Roboto Condensed", sans-serif;
   background-image: url(../assets/icon-slideshows.png);
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 20px 0px 0px 5px;
+  padding: 20px 0 0 5px;
   position: absolute;
   text-align: center;
   text-transform: uppercase;
 }
+
 .slideshow-image a:hover {
   text-decoration: none;
 }
