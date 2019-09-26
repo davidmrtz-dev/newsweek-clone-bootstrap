@@ -590,6 +590,10 @@ body {
 /* #endregion */
 
 /* #region latest-news */
+.latest-news {
+  background-color: aquamarine;
+}
+
 .latest-news h2 {
   color: rgba(3, 3, 3, 0.4);
   font: bold 16px "Roboto Condensed", sans-serif;
@@ -625,6 +629,12 @@ body {
   color: black;
   margin-bottom: 0.5em;
 }
+
+/* .latest-news img,
+.latest-news h3:hover {
+  color: #f72210;
+  cursor: pointer;
+} */
 
 @media screen and (min-width: 768px) {
   .latest-news > div {
