@@ -917,5 +917,41 @@ a {
 /* #endregion */
 
 /* #region editors-pick */
+.editors-pick {
+  margin-bottom: 2em;
+}
+
+.editors-pick h2 {
+  font-size: 19px;
+  color: black;
+  text-align: center;
+  line-height: 38px;
+  border-bottom: thin solid rgba(128, 128, 128, 0.29);
+  padding-bottom: 5px;
+  margin: 0px 15px 15px;
+}
+
+.editors-pick h2 .logo {
+  margin-bottom: -8px;
+  margin-right: 8px;
+}
+
+.editors-pick h3 {
+  font: bold 24px "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  color: black;
+  padding: 7px 0;
+  line-height: 1em;
+}
+
+.editors-pick p {
+  padding: 7px 0;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+/* #endregion */
+
+/* #region slides-shows */
 
 /* #endregion */
