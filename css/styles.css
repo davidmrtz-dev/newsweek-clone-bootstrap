@@ -1002,3 +1002,71 @@ a {
 }
 
 /* #endregion */
+
+/* #region section-pick */
+
+.section-pick {
+  border-top: 2px solid rgba(128, 128, 128, 0.3);
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.section-pick h2 {
+  font: bold 22px "Roboto Condensed", sans-serif;
+  color: #f72210;
+  text-transform: none;
+}
+
+.section-pick .big-section {
+  font: bold 22px "Roboto Condensed", sans-serif;
+}
+
+.section-pick .big-section img {
+  width: 100%;
+}
+
+.section-pick .big-section h3 {
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 768px) {
+  .section-pick .big-section h3 {
+    font-size: 18px;
+  }
+}
+
+.section-pick .small-section {
+  border-top: 2px solid rgba(128, 128, 128, 0.3);
+  margin-top: 10px;
+  padding-top: 10px;
+  display: grid;
+  grid-template-areas: "image header";
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+}
+
+.section-pick .small-section:first-child {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.section-pick .small-section img {
+  grid-area: image;
+  width: 135px;
+  height: 90px;
+}
+
+@media screen and (max-width: 768px) {
+  .section-pick .small-section img {
+    width: 258px;
+    height: 172px;
+  }
+}
+
+.section-pick .small-section h3 {
+  grid-area: header;
+  font: bold 17px "Roboto Condensed", sans-serif;
+}
+
+/* #endregion */
