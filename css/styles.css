@@ -667,6 +667,29 @@ body {
 
 /* #endregion */
 
+/* #region sponsored */
+
+.sponsored h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+  padding: 0.3em 0;
+}
+
+.sponsored p {
+  padding: 0.3em 0;
+  color: rgb(53, 52, 52);
+  font-size: 13px;
+  line-height: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  clear: both;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+/* #endregion */
+
 /* #endregion */
 
 /* #endregion */
