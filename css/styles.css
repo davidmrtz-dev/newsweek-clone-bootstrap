@@ -393,13 +393,13 @@ body {
   }
 }
 
-@media (max-width: 991px) and (min-width: 670px) {
+@media (max-width: 767px) and (min-width: 670px) {
   .culture-and-travel {
     margin-top: 10%;
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   .culture-and-travel {
     margin-top: 0;
   }
