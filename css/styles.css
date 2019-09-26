@@ -276,7 +276,7 @@ body {
   }
 }
 
-.top-story > h2 {
+.top-story h2 {
   margin-top: 63px;
   color: rgba(3, 3, 3, 0.4);
   font: bold 16px "Roboto Condensed", sans-serif;
@@ -292,7 +292,7 @@ body {
   padding: 0.3em 0;
 }
 
-.top-story div > a:last-of-type > h3 {
+.top-story div a:last-of-type {
   font-size: 20px;
 }
 
@@ -689,7 +689,20 @@ body {
   border-bottom: thin solid rgba(128, 128, 128, 0.29);
   border-right: thin solid rgba(128, 128, 128, 0.29);
   border-left: thin solid rgba(128, 128, 128, 0.29);
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+}
+
+.sponsored > div > div:nth-child(2) {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.sponsored > div > div:nth-child(3) {
+  margin-bottom: 1em;
+}
+
+.txt-box-sponsored:last-of-type {
+  margin: 0;
 }
 
 .sponsored .signup {
