@@ -1072,81 +1072,81 @@ a {
 /* #endregion */
 
 /* #region bottom-sign-up */
-#bottom-sign-up {
+.bottom-sign-up {
   padding-top: 40px;
 }
 
-#bottom-sign-up h2 {
+.bottom-sign-up h2 {
   grid-area: header;
   color: #f72210;
 }
 
-#bottom-sign-up > div {
+.bottom-sign-up > div {
   padding: 30px;
 }
 
-#bottom-sign-up > div .covers {
+.bottom-sign-up > div .covers {
   position: relative;
   width: 260px;
   height: 260px;
   margin: auto;
 }
 
-#bottom-sign-up > div .covers img {
+.bottom-sign-up > div .covers img {
   width: 170px;
   height: 227px;
   position: absolute;
-  right: 0px;
+  right: 0;
   bottom: 15px;
 }
 
-#bottom-sign-up > div .covers img:first-child {
-  left: 0px;
-  top: 0px;
+.bottom-sign-up > div .covers img:first-child {
+  left: 0;
+  top: 0;
   right: auto;
   bottom: auto;
 }
 
-#bottom-sign-up .text {
+.bottom-sign-up .text {
   -ms-flex-item-align: center;
   align-self: center;
 }
 
 @media screen and (max-width: 768px) {
-  #bottom-sign-up .text {
+  .bottom-sign-up .text {
     text-align: center;
   }
 }
 
-#bottom-sign-up .text h3 {
+.bottom-sign-up .text h3 {
   font: bold 24px "Roboto Condensed", sans-serif;
   margin-bottom: 15px;
 }
 
 @media screen and (max-width: 768px) {
-  #bottom-sign-up .text h3 {
+  .bottom-sign-up .text h3 {
     font-size: 20px;
   }
 }
 
-#bottom-sign-up .text p {
+.bottom-sign-up .text p {
   font-size: 15px;
   margin-bottom: 25px;
 }
 
-#newsletter {
+.newsletter {
   padding-top: 40px;
 }
 
-#newsletter .row {
+.newsletter .row {
   height: 90%;
 }
 
-#newsletter h2 {
+.newsletter h2 {
   color: #f72210;
 }
 
-#newsletter .image {
+.newsletter .image {
   width: 100%;
   height: 100%;
   background-image: url(../assets/subscribe-img2.gif);
@@ -1156,29 +1156,29 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  #newsletter .image {
+  .newsletter .image {
     height: 160px;
   }
 }
 
-#newsletter .text {
+.newsletter .text {
   padding: 20px;
   -ms-flex-item-align: center;
   align-self: center;
 }
 
 @media screen and (max-width: 768px) {
-  #newsletter .text {
+  .newsletter .text {
     text-align: center;
   }
 }
 
-#newsletter .text h3 {
+.newsletter .text h3 {
   font: bold 24px "Roboto Condensed", sans-serif;
   margin-bottom: 15px;
 }
 
-#newsletter .text p {
+.newsletter .text p {
   font-size: 15px;
   margin-bottom: 25px;
 }
