@@ -785,14 +785,6 @@ a {
   background-color: aqua;
 }
 
-.features .see-all {
-  display: inline-block;
-  font: bold 18px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  padding: 10px 0;
-  width: 100%;
-}
-
 .features h2 {
   font-size: 19px;
   color: black;
@@ -928,7 +920,7 @@ a {
   line-height: 38px;
   border-bottom: thin solid rgba(128, 128, 128, 0.29);
   padding-bottom: 5px;
-  margin: 0px 15px 15px;
+  margin: 0 15px 15px;
 }
 
 .editors-pick h2 .logo {
