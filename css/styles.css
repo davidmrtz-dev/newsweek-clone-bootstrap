@@ -688,6 +688,70 @@ body {
   margin-bottom: 1em;
 }
 
+.txt-box-sponsored {
+  border-bottom: thin solid rgba(128, 128, 128, 0.29);
+  border-right: thin solid rgba(128, 128, 128, 0.29);
+  border-left: thin solid rgba(128, 128, 128, 0.29);
+  margin-bottom: 2em;
+}
+
+.sponsored .signup {
+  background-color: #f4f5f6;
+  color: #333;
+  padding: 20px;
+  font: bold 19px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  display: grid;
+  grid-template-areas: "logo head" "sign sign" "pref pref";
+  grid-template-columns: 38px 1fr;
+  grid-template-rows: auto 1fr auto;
+  justify-content: space-between;
+  border: thin solid rgba(128, 128, 128, 0.29);
+}
+
+@media (max-width: 768px) and (min-width: 100px) {
+  .sponsored .signup {
+    min-width: 290px;
+    max-width: 300px;
+    margin: auto;
+  }
+}
+
+.sponsored .signup h3 {
+  grid-area: head;
+}
+
+.sponsored .signup .logo {
+  grid-area: logo;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.sponsored .signup .signup-button {
+  grid-area: sign;
+  padding: 20px 0;
+}
+
+.sponsored .signup .signup-button a {
+  color: white;
+  background-color: #666;
+}
+
+.sponsored .signup a.prefs {
+  grid-area: pref;
+  font: bold 15px 'Roboto Condensed', sans-serif;
+  text-transform: none;
+  color: black;
+}
+
+.nw-logo-small {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background-color: #f72210;
+  background-image: url(../assets/logo-n1.svg);
+}
+
 /* #endregion */
 
 /* #endregion */
