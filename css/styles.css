@@ -25,6 +25,18 @@ body {
   margin: 0 auto;
 }
 
+h2 {
+  color: rgba(3, 3, 3, 0.4);
+  font: bold 16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 0.5em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* #region navbar */
 
 /* #region s-m-size */
@@ -769,5 +781,48 @@ body {
 /* #endregion */
 
 /* #region features */
+.features {
+  background-color: aqua;
+}
+
+.features .see-all {
+  display: inline-block;
+  font: bold 18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.features h2 {
+  font-size: 19px;
+  color: black;
+  text-align: center;
+  line-height: 38px;
+  border-bottom: thin solid rgba(128, 128, 128, 0.29);
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.features h2 .logo {
+  margin-bottom: -8px;
+  margin-right: 8px;
+}
+
+.features .see-all {
+  display: inline-block;
+  font: bold 18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding: 10px 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.features .see-all:hover {
+  background-color: rgb(223, 222, 222);
+  text-decoration: none;
+  color: black;
+}
 
 /* #endregion */
