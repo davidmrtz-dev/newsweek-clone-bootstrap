@@ -264,10 +264,6 @@ body {
   margin-bottom: 2em;
 }
 
-.top-story > h2 {
-  margin-top: 63px;
-}
-
 @media screen and (min-width: 992px) {
   .top-story {
     margin-top: 155px;
@@ -281,6 +277,7 @@ body {
 }
 
 .top-story > h2 {
+  margin-top: 63px;
   color: rgba(3, 3, 3, 0.4);
   font: bold 16px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
