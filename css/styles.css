@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  background-color: rgb(75, 136, 102);
+  background-color: rgb(218, 218, 218);
   line-height: 1;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0 auto;
@@ -1136,10 +1136,12 @@ a {
 
 .newsletter {
   padding-top: 40px;
+  border-bottom: thin solid rgba(131, 15, 15, 01);
 }
 
 .newsletter .row {
   height: 90%;
+  margin-bottom: 40px;
 }
 
 .newsletter h2 {
@@ -1194,5 +1196,9 @@ a {
   background-color: #c61606;
   color: white;
 }
+
+/* #endregion */
+
+/* #region footer */
 
 /* #endregion */
