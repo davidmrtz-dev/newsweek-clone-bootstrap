@@ -1,4 +1,5 @@
-###### Responsive design using CSS
+## Project
+Responsive design using CSS
 
 ## Description
 This project is a clone of the site [newsweek.com](https://newsweek.com/) which tries to replicate the responsive behaviour of the original site using bootstrap.
@@ -8,7 +9,7 @@ This project is a clone of the site [newsweek.com](https://newsweek.com/) which 
 <img  align="right" src="design/screencapture.png">
 
 ## Source
-https://www.theodinproject.com/courses/html5-and-css3/lessons/design-teardown
+https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap
 
 #Github Repo
 https://github.com/davitomix/newsweek-clone-bootstrap
