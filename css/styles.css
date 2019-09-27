@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  background-color: rgb(218, 218, 218);
+  background-color: rgb(244, 245, 246);
   line-height: 1;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0 auto;
@@ -39,13 +39,15 @@ a {
 
 main {
   max-width: 1310px;
+  width: 95%;
   margin: 0 auto;
   padding-top: 161px;
+  background-color: white;
 }
 
 @media screen and (max-width: 992px) {
   main {
-    padding-top: 60px;
+    padding-top: 80px;
   }
 }
 
@@ -132,10 +134,21 @@ main {
 /* #endregion */
 
 /* #region s>m size */
-@media screen and (min-width: 992px) {
+.nav-1 > .row{
+  background-color: #f72210;
+}
+
+@media screen and (min-width: 1310px) {
+  .nav-1 > .row{
+    max-width: 1310px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
   .nav-1 {
     z-index: 1;
-    background-color: #f72210;
+    width: 100%;
+    margin: 0 auto;
   }
 
   .navbar-fixed-top {
@@ -224,6 +237,20 @@ main {
     top: 95px;
     height: 50px;
     width: 100%;
+  }
+
+  @media screen and (min-width: 1310px) {
+    .nav-3 > .row{
+      max-width: 1310px;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .nav-3 > .row {
+      border-bottom: thin solid rgba(128, 128, 128, 0.4);
+    }
   }
 
   .nav-3 > div > ul {
@@ -427,7 +454,7 @@ main {
 }
 
 .culture-and-travel {
-  background-color: aliceblue;
+  background-color: rgb(244, 245, 247);
 }
 
 .culture-and-travel div.cultr {
@@ -546,7 +573,7 @@ main {
 
 /* #region con-container-2 */
 .col-cont-2 {
-  background-color: antiquewhite;
+  background-color: white;
 }
 
 /* #region opinion */
@@ -597,7 +624,7 @@ main {
 
 /* #region latest-news */
 .latest-news {
-  background-color: aquamarine;
+  background-color: white;
 }
 
 .latest-news h2 {
@@ -779,7 +806,7 @@ main {
 
 /* #region features */
 .features {
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
 }
 
 .features h2 {
@@ -1133,7 +1160,6 @@ main {
 
 .newsletter {
   padding-top: 40px;
-  border-bottom: thin solid rgba(131, 15, 15, 01);
 }
 
 .newsletter .row {
@@ -1201,7 +1227,7 @@ footer {
   max-width: 1310px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15px;
+  margin-top: 0;
   margin-bottom: 15px;
 }
 
@@ -1323,6 +1349,10 @@ footer li a:hover {
     display: inline;
     width: 200px;
   }
+}
+
+footer > div:first-of-type {
+  border-top: 2px solid rgba(128, 128, 128, 0.25);
 }
 
 .top > div:first-of-type > p {
