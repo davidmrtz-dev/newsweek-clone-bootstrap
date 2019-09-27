@@ -1,1 +1,5 @@
-
+.stickler.yml
+*.map
+*.img
+*.png
+Newsweek.html
