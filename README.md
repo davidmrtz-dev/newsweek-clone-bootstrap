@@ -17,4 +17,3 @@ https://github.com/davitomix/newsweek-clone-bootstrap
 
 ## Author
 [David Martinez](https://github.com/davitomix)
-
