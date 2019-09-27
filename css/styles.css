@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  background-color: rgb(75, 136, 102);
+  background-color: rgb(244, 245, 246);
   line-height: 1;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0 auto;
@@ -35,6 +35,33 @@ h2 {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+main {
+  max-width: 1310px;
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 161px;
+  background-color: white;
+}
+
+@media screen and (max-width: 992px) {
+  main {
+    padding-top: 80px;
+  }
+}
+
+.nw-logo.red {
+  background-image: url(../assets/logo-red.svg);
+}
+
+.nw-logo.white {
+  background-image: url(../assets/logo-white.svg);
+}
+
+.nw-logo {
+  display: inline-block;
+  background-repeat: no-repeat;
 }
 
 /* #region navbar */
@@ -107,10 +134,24 @@ a {
 /* #endregion */
 
 /* #region s>m size */
+.nav-1 > .row {
+  background-color: #f72210;
+}
+
+@media screen and (min-width: 1310px) {
+  .nav-1 > .row {
+    max-width: 1310px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .nav-1 {
     z-index: 1;
-    background-color: #f72210;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(244, 245, 246);
   }
 
   .navbar-fixed-top {
@@ -201,6 +242,20 @@ a {
     width: 100%;
   }
 
+  @media screen and (min-width: 1310px) {
+    .nav-3 > .row {
+      max-width: 1310px;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .nav-3 > .row {
+      border-bottom: thin solid rgba(128, 128, 128, 0.4);
+    }
+  }
+
   .nav-3 > div > ul {
     background-color: #fff;
     height: 50px;
@@ -276,20 +331,7 @@ a {
   margin-bottom: 2em;
 }
 
-@media screen and (min-width: 992px) {
-  .top-story {
-    margin-top: 155px;
-  }
-}
-
-@media (max-width: 420px) and (min-width: 100px) {
-  .top-story {
-    margin-top: 95px;
-  }
-}
-
 .top-story h2 {
-  margin-top: 63px;
   color: rgba(3, 3, 3, 0.4);
   font: bold 16px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
@@ -415,7 +457,7 @@ a {
 }
 
 .culture-and-travel {
-  background-color: aliceblue;
+  background-color: rgb(244, 245, 247);
 }
 
 .culture-and-travel div.cultr {
@@ -464,15 +506,6 @@ a {
 /* #endregion */
 
 /* #region featured-stories */
-.sticky-panel > h2 {
-  margin-top: 63px;
-}
-
-@media screen and (min-width: 992px) {
-  .sticky-panel > h2 {
-    margin-top: 155px;
-  }
-}
 
 @media screen and (min-width: 768.5px) {
   .featured-stories {
@@ -543,7 +576,7 @@ a {
 
 /* #region con-container-2 */
 .col-cont-2 {
-  background-color: antiquewhite;
+  background-color: white;
 }
 
 /* #region opinion */
@@ -559,12 +592,6 @@ a {
 
 .opinion > div:last-of-type {
   border-bottom: 0;
-}
-
-@media screen and (min-width: 992px) {
-  .opinion > h2 {
-    margin-top: 155px;
-  }
 }
 
 .opinion h2 {
@@ -600,7 +627,7 @@ a {
 
 /* #region latest-news */
 .latest-news {
-  background-color: aquamarine;
+  background-color: white;
 }
 
 .latest-news h2 {
@@ -782,7 +809,7 @@ a {
 
 /* #region features */
 .features {
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
 }
 
 .features h2 {
@@ -953,7 +980,7 @@ a {
   line-height: 38px;
   border-bottom: thin solid rgba(128, 128, 128, 0.29);
   padding-bottom: 5px;
-  margin: 0px 15px 15px;
+  margin: 0 15px 15px;
 }
 
 .slideshows h2 .logo {
@@ -1193,6 +1220,143 @@ a {
 .red-btn:hover {
   background-color: #c61606;
   color: white;
+}
+
+/* #endregion */
+
+/* #region footer */
+footer {
+  background-color: white;
+  max-width: 1310px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+footer .top {
+  font-size: 12px;
+  color: #666;
+  line-height: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.25);
+  padding-top: 15px;
+}
+
+footer .top div:last-child {
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  footer .top div:last-child {
+    text-align: left;
+  }
+}
+
+footer .bottom div:last-child {
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  footer .bottom div:last-child {
+    text-align: left;
+  }
+}
+
+footer .bottom p {
+  font-size: 14px;
+  display: inline-block;
+  font-weight: bold;
+  color: #555;
+  margin-right: 0;
+}
+
+footer .nw-logo {
+  width: 236px;
+  height: 35px;
+  padding: 0 15px 15px;
+}
+
+footer .fab {
+  font-size: 24px;
+  color: grey;
+  margin-left: 13px;
+  margin-top: 12px;
+}
+
+footer .fab:hover {
+  font-size: 24px;
+  color: rgb(62, 101, 146);
+  cursor: pointer;
+  margin-left: 13px;
+  margin-top: 12px;
+}
+
+footer li {
+  display: inline-block;
+  border-right: 0;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+}
+
+footer li:last-child {
+  border-right: none;
+}
+
+footer li a {
+  color: #666;
+  font-size: 14px;
+}
+
+footer li a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.bottom > div:last-of-type > ul > li {
+  display: inline-block;
+  border-right: none;
+  padding-right: 0;
+  padding-bottom: 10px;
+}
+
+.bottom > div:last-of-type > ul > li:first-child {
+  border-right: none;
+}
+
+.bottom > div:last-of-type > ul {
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .bottom > div:last-of-type > ul > li {
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  .bottom > div:last-of-type > ul > li:first-child {
+    border-right: none;
+  }
+
+  footer li {
+    border-right: 1px solid #d9d9d9;
+  }
+
+  .top > div:first-of-type > p {
+    display: inline;
+    width: 200px;
+  }
+}
+
+footer > div:first-of-type {
+  border-top: 2px solid rgba(128, 128, 128, 0.25);
+}
+
+.top > div:first-of-type > p {
+  width: 200px;
 }
 
 /* #endregion */
