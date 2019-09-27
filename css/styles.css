@@ -1333,15 +1333,12 @@ footer li a:hover {
 @media (min-width: 768px) {
   .bottom > div:last-of-type > ul > li {
     border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    padding-bottom: 10px;
   }
 
   .bottom > div:last-of-type > ul > li:first-child {
     border-right: none;
-  }
-
-  .bottom > div:last-of-type > ul > li {
-    padding-right: 10px;
-    padding-bottom: 10px;
   }
 
   footer li {
