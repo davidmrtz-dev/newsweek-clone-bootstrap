@@ -10,6 +10,7 @@ This project is a clone of the site [newsweek.com](https://newsweek.com/) which 
 
 ## Source
 https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap
+
 #Github Repo
 https://github.com/davitomix/newsweek-clone-bootstrap
 
