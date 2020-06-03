@@ -11,7 +11,7 @@
 ## Live Demo
 [Live Demo Link :rocket:](https://davitomix.github.io/newsweek-clone-bootstrap/)
 
-## Getting Started
+## Usage
 - Download the repo in your computer.
 - Drag and drop the index.html file into your web browser.
 - Enjoy.
