@@ -1,4 +1,4 @@
-# Newsweek Webpage CLone
+# Newsweek Webpage Clone
 
 > This project is a clone of the site [newsweek.com](https://newsweek.com/) which tries to replicate the responsive behaviour of the original site using bootstrap.
 
