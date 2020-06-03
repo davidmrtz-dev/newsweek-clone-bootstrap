@@ -4,14 +4,10 @@
 
 <img  align="right" src="design/screencapture.png">
 
-## Author
-[David Martinez](https://github.com/davitomix)
-
 ## Built With
-- JS ES6
-- Webpack
-- Module Pattern
 - CSS
+- Bootstrap Framework.
+- HTML
 
 ## Live Demo
 [Live Demo Link :rocket:](https://davitomix.github.io/newsweek-clone-bootstrap/)
