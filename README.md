@@ -15,7 +15,7 @@
 
 ## Getting Started
 - Download the repo in your computer.
-- Drag and drop the index.html file from the dist folder into your web browser.
+- Drag and drop the index.html file into your web browser.
 - Enjoy.
 
 
@@ -35,7 +35,7 @@ Feel free to check the [issues page](issues/).
 Give a ⭐️ if you like this project!
 
 ## Source
-https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap
+[The Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
 
 ## 📝 License
 This project is [MIT](lic.url) licensed.
