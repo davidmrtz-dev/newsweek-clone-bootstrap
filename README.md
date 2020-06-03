@@ -1,5 +1,4 @@
 # Newsweek Webpage Clone
-
 > This project is a clone of the site [newsweek.com](https://newsweek.com/) which tries to replicate the responsive behaviour of the original site using bootstrap.
 
 <img  align="right" src="design/screencapture.png">
@@ -12,12 +11,10 @@
 ## Live Demo
 [Live Demo Link :rocket:](https://davitomix.github.io/newsweek-clone-bootstrap/)
 
-
 ## Getting Started
 - Download the repo in your computer.
 - Drag and drop the index.html file into your web browser.
 - Enjoy.
-
 
 ## Author
 👤 **David Elí**
