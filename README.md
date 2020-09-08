@@ -21,7 +21,7 @@
 
 - Github: [@davitomix](https://github.com/davitomix)
 - Twitter: [@davitomix007](https://twitter.com/davitomix007)
-- Linkedin: [David Garcia](https://www.linkedin.com/in/davideligarcia/)
+- LinkedIn: [David Garcia](https://www.linkedin.com/in/davideligarcia/)
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
