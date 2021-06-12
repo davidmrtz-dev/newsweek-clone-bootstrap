@@ -16,12 +16,13 @@
 - Drag and drop the index.html file into your web browser.
 - Enjoy.
 
-## Author
-👤 **David Elí**
+## Authors
 
-- Github: [@davitomix](https://github.com/davitomix)
-- Twitter: [@davitomix007](https://twitter.com/davitomix007)
-- LinkedIn: [David Garcia](https://www.linkedin.com/in/davideligarcia/)
+👤 **David Martínez**
+
+- Github: [@davomartinez-dev](https://github.com/davomartinez-dev)
+- Twitter: [@davomartinezdev](https://twitter.com/davomartinezdev)
+- LinkedIn: [David Martínez](https://www.linkedin.com/in/davidelimartinez/)
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
